@@ -1,5 +1,9 @@
 import random #使用別人寫好的功能
-r = random.randint(1, 100)
+start = input('請決定隨機數字範圍開始值: ')
+end = input('請決定隨機數字範圍結束值: ')
+start = int(start)
+end = int(end)
+r = random.randint(start, end)
 count = 0
 #standard library 標準化函式庫
 while True:
